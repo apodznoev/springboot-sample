@@ -7,6 +7,5 @@ import org.springframework.data.repository.CrudRepository;
  * Date    21.11.2017.
  */
 public interface CustomRepository extends CrudRepository<Customer, Long> {
-
     Customer findByFullName(String fullName);
 }
